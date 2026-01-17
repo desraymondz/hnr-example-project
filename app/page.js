@@ -56,12 +56,12 @@ export default function Home() {
             </div>
 
             {/* Main Headline */}
-            <h1 className="text-5xl sm:text-6xl lg:text-8xl font-bold text-white leading-tight animate-fade-in">
+            <h1 className="text-6xl sm:text-7xl lg:text-9xl font-bold text-white leading-tight animate-fade-in">
               <span className="bg-gradient-to-r from-white via-cyan-100 to-blue-100 bg-clip-text text-transparent">
                 Startup
               </span>
               <span className="block mt-2">Founders</span>
-              <span className="block text-4xl sm:text-5xl lg:text-6xl mt-4 text-cyan-100">
+              <span className="block text-5xl sm:text-6xl lg:text-7xl mt-4 text-cyan-100">
                 Meetup 2026
               </span>
             </h1>
