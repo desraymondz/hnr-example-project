@@ -10,7 +10,7 @@ const montserrat = Montserrat({
 });
 
 export const metadata = {
-  title: "Tech Innovation Summit 2026",
+  title: "Startup Founders Meetup 2026",
   description: "Where visionaries connect, ideas flourish, and the future of technology unfolds.",
 };
 

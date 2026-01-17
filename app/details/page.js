@@ -61,7 +61,7 @@ export default function Details() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-5xl sm:text-6xl font-bold mb-4">Event Details</h1>
           <p className="text-xl text-white/90 max-w-3xl">
-            Everything you need to know about Tech Innovation Summit 2026
+            Everything you need to know about Startup Founders Meetup 2026
           </p>
         </div>
       </section>
