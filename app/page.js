@@ -82,7 +82,7 @@ export default function Home() {
               </div>
               <div className="flex items-center gap-2">
                 <LocationIcon />
-                <span className="font-medium">San Francisco, CA</span>
+                <span className="font-medium">Singapore, NUS</span>
               </div>
             </div>
 
