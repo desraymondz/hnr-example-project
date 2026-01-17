@@ -128,7 +128,7 @@ export default function Home() {
               {[
                 { icon: <TicketIcon />, label: 'Event Type', value: 'Conference' },
                 { icon: <ClockIcon />, label: 'Duration', value: '5 Hours' },
-                { icon: <DollarIcon />, label: 'From', value: '$99' },
+                { icon: <DollarIcon />, label: 'From', value: 'XX' },
                 { icon: <UsersIcon />, label: 'Capacity', value: '500+' }
               ].map((info) => (
                 <div key={info.label} className="bg-white/10 backdrop-blur-md rounded-xl p-4 border border-white/20 hover:bg-white/15 transition-all duration-300 hover:scale-105">

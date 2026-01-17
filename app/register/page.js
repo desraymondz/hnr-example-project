@@ -18,8 +18,8 @@ export default function Register() {
     {
       id: 'early-bird',
       name: 'Early Bird',
-      price: 99,
-      originalPrice: 149,
+      price: 'XX',
+      originalPrice: null,
       description: 'Perfect for early adopters',
       features: [
         'Full event access',
@@ -35,7 +35,7 @@ export default function Register() {
     {
       id: 'general',
       name: 'General Admission',
-      price: 149,
+      price: 'XX',
       description: 'Standard entry to all events',
       features: [
         'Full event access',
@@ -52,7 +52,7 @@ export default function Register() {
     {
       id: 'vip',
       name: 'VIP',
-      price: 249,
+      price: 'XX',
       description: 'Premium experience',
       features: [
         'Everything in General Admission',
@@ -80,7 +80,7 @@ export default function Register() {
   };
 
   const selectedTierData = ticketTiers.find(t => t.id === selectedTier);
-  const subtotal = selectedTierData ? selectedTierData.price * quantity : 0;
+  const subtotal = selectedTierData && typeof selectedTierData.price === 'number' ? selectedTierData.price * quantity : 'XX';
   const total = subtotal;
 
   // Update quantity when tier changes
@@ -134,7 +134,7 @@ export default function Register() {
                       {tier.originalPrice && (
                         <p className="text-sm text-gray-400 line-through">${tier.originalPrice}</p>
                       )}
-                      <p className="text-4xl font-bold text-purple-600">${tier.price}</p>
+                      <p className="text-4xl font-bold text-purple-600">{typeof tier.price === 'number' ? `$${tier.price}` : tier.price}</p>
                       <p className="text-xs text-gray-500 mt-1">per ticket</p>
                     </div>
                   </div>
@@ -185,7 +185,7 @@ export default function Register() {
                           <p className="font-semibold text-gray-900">{selectedTierData.name}</p>
                           <p className="text-sm text-gray-600">Quantity: {quantity}</p>
                         </div>
-                        <p className="font-semibold text-gray-900">${selectedTierData.price}</p>
+                        <p className="font-semibold text-gray-900">{typeof selectedTierData.price === 'number' ? `$${selectedTierData.price}` : selectedTierData.price}</p>
                       </div>
                     </div>
                   </div>
@@ -193,7 +193,7 @@ export default function Register() {
                   <div className="border-t border-gray-200 pt-4 space-y-2 mb-6">
                     <div className="flex justify-between text-gray-600">
                       <span>Subtotal</span>
-                      <span>${subtotal.toFixed(2)}</span>
+                      <span>{typeof subtotal === 'number' ? `$${subtotal.toFixed(2)}` : subtotal}</span>
                     </div>
                     <div className="flex justify-between text-gray-600">
                       <span>Taxes & Fees</span>
@@ -201,7 +201,7 @@ export default function Register() {
                     </div>
                     <div className="flex justify-between text-2xl font-bold text-gray-900 pt-2 border-t border-gray-200">
                       <span>Total</span>
-                      <span>${total.toFixed(2)}</span>
+                      <span>{typeof total === 'number' ? `$${total.toFixed(2)}` : total}</span>
                     </div>
                   </div>
 
