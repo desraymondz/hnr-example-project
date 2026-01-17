@@ -377,7 +377,7 @@ export default function Register() {
                   {/* Submit Button */}
                   <button
                     type="submit"
-                    className="w-full px-8 py-4 bg-blue-500 text-white rounded-xl font-bold text-lg shadow-lg hover:shadow-xl hover:bg-gradient-to-r hover:from-blue-600 hover:to-purple-600 transition-all duration-300 hover:scale-105 hover:-translate-y-1"
+                    className="w-full px-8 py-4 bg-blue-500 text-white rounded-full font-bold text-lg shadow-lg hover:shadow-xl hover:bg-gradient-to-r hover:from-blue-600 hover:to-purple-600 transition-all duration-300 hover:scale-105 hover:-translate-y-1"
                   >
                     Complete Registration
                   </button>
