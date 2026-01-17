@@ -95,7 +95,7 @@ export default function Home() {
                 { label: 'Minutes', value: timeLeft.minutes },
                 { label: 'Seconds', value: timeLeft.seconds }
               ].map((item) => (
-                <div key={item.label} className="bg-white/10 backdrop-blur-md rounded-2xl p-4 sm:p-6 border border-white/20 min-w-[80px] sm:min-w-[100px]">
+                <div key={item.label} className="bg-white/10 backdrop-blur-md rounded-3xl p-4 sm:p-6 border border-white/20 min-w-[80px] sm:min-w-[100px]">
                   <div className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-1">
                     {String(item.value).padStart(2, '0')}
                   </div>
@@ -132,7 +132,7 @@ export default function Home() {
                 { icon: <DollarIcon />, label: 'From', value: 'XX' },
                 { icon: <UsersIcon />, label: 'Capacity', value: '500+' }
               ].map((info) => (
-                <div key={info.label} className="bg-white/10 backdrop-blur-md rounded-xl p-4 border border-white/20 hover:bg-white/15 transition-all duration-300 hover:scale-105">
+                <div key={info.label} className="bg-white/10 backdrop-blur-md rounded-3xl p-4 border border-white/20 hover:bg-white/15 transition-all duration-300 hover:scale-105">
                   <div className="text-white/70 mb-2">{info.icon}</div>
                   <div className="text-xs text-white/60 uppercase tracking-wider mb-1">{info.label}</div>
                   <div className="text-lg font-bold text-white">{info.value}</div>
@@ -147,7 +147,7 @@ export default function Home() {
                 { icon: <NetworkIcon />, title: 'Networking', desc: 'Connect with industry leaders' },
                 { icon: <WorkshopIcon />, title: 'Workshops', desc: 'Hands-on learning experiences' }
               ].map((feature) => (
-                <div key={feature.title} className="bg-white/10 backdrop-blur-md rounded-2xl p-6 border border-white/20 hover:bg-white/15 transition-all duration-300 hover:scale-105 hover:-translate-y-2">
+                <div key={feature.title} className="bg-white/10 backdrop-blur-md rounded-3xl p-6 border border-white/20 hover:bg-white/15 transition-all duration-300 hover:scale-105 hover:-translate-y-2">
                   <div className="text-cyan-300 mb-4">{feature.icon}</div>
                   <h3 className="text-xl font-bold text-white mb-2">{feature.title}</h3>
                   <p className="text-white/70 text-sm">{feature.desc}</p>
