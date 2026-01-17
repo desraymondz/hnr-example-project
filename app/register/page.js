@@ -282,7 +282,7 @@ export default function Register() {
                       required
                       value={formData.name}
                       onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                      className="w-full px-4 py-3 border-2 border-gray-300 rounded-xl focus:border-purple-600 focus:ring-4 focus:ring-purple-100 outline-none transition-all"
+                      className="w-full px-4 py-3 border-2 border-red-300 rounded-xl focus:border-red-600 focus:ring-4 focus:ring-red-100 outline-none transition-all"
                       placeholder="John Doe"
                     />
                   </div>
@@ -297,7 +297,7 @@ export default function Register() {
                       required
                       value={formData.email}
                       onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                      className="w-full px-4 py-3 border-2 border-gray-300 rounded-xl focus:border-purple-600 focus:ring-4 focus:ring-purple-100 outline-none transition-all"
+                      className="w-full px-4 py-3 border-2 border-red-300 rounded-xl focus:border-red-600 focus:ring-4 focus:ring-red-100 outline-none transition-all"
                       placeholder="john@example.com"
                     />
                   </div>
@@ -312,7 +312,7 @@ export default function Register() {
                       required
                       value={formData.phone}
                       onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                      className="w-full px-4 py-3 border-2 border-gray-300 rounded-xl focus:border-purple-600 focus:ring-4 focus:ring-purple-100 outline-none transition-all"
+                      className="w-full px-4 py-3 border-2 border-red-300 rounded-xl focus:border-red-600 focus:ring-4 focus:ring-red-100 outline-none transition-all"
                       placeholder="+1 (555) 123-4567"
                     />
                   </div>
@@ -325,7 +325,7 @@ export default function Register() {
                     <select
                       value={formData.dietary}
                       onChange={(e) => setFormData({ ...formData, dietary: e.target.value })}
-                      className="w-full px-4 py-3 border-2 border-gray-300 rounded-xl focus:border-purple-600 focus:ring-4 focus:ring-purple-100 outline-none transition-all"
+                      className="w-full px-4 py-3 border-2 border-red-300 rounded-xl focus:border-red-600 focus:ring-4 focus:ring-red-100 outline-none transition-all"
                     >
                       <option value="">None</option>
                       <option value="vegetarian">Vegetarian</option>
@@ -345,7 +345,7 @@ export default function Register() {
                     <textarea
                       value={formData.accessibility}
                       onChange={(e) => setFormData({ ...formData, accessibility: e.target.value })}
-                      className="w-full px-4 py-3 border-2 border-gray-300 rounded-xl focus:border-purple-600 focus:ring-4 focus:ring-purple-100 outline-none transition-all resize-none"
+                      className="w-full px-4 py-3 border-2 border-red-300 rounded-xl focus:border-red-600 focus:ring-4 focus:ring-red-100 outline-none transition-all resize-none"
                       rows="3"
                       placeholder="Please let us know if you have any accessibility requirements..."
                     />
