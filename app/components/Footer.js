@@ -11,7 +11,7 @@ export default function Footer() {
               TIS<span className="text-cyan-500">24</span>
             </h3>
             <p className="text-gray-400 text-sm">
-              Where visionaries connect, ideas flourish, and the future of technology unfolds.
+              Connect, Learn, Grow
             </p>
           </div>
 
