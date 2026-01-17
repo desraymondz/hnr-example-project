@@ -12,7 +12,7 @@ export default function Home() {
   });
 
   // Event date - set this to your actual event date
-  const eventDate = new Date('2024-12-31T18:00:00').getTime();
+  const eventDate = new Date('2026-12-31T18:00:00').getTime();
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -62,7 +62,7 @@ export default function Home() {
               </span>
               <span className="block mt-2">Innovation</span>
               <span className="block text-4xl sm:text-5xl lg:text-6xl mt-4 text-cyan-100">
-                Summit 2024
+                This is the Biggest Summit 2026
               </span>
             </h1>
 
@@ -75,7 +75,7 @@ export default function Home() {
             <div className="flex flex-wrap items-center justify-center gap-6 text-white/80 animate-fade-in-delay-2">
               <div className="flex items-center gap-2">
                 <CalendarIcon />
-                <span className="font-medium">December 31, 2024</span>
+                <span className="font-medium">December 31, 2026</span>
               </div>
               <div className="flex items-center gap-2">
                 <ClockIcon />

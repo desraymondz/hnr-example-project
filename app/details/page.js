@@ -61,7 +61,7 @@ export default function Details() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-5xl sm:text-6xl font-bold mb-4">Event Details</h1>
           <p className="text-xl text-white/90 max-w-3xl">
-            Everything you need to know about Tech Innovation Summit 2024
+            Everything you need to know about Tech Innovation Summit 2026
           </p>
         </div>
       </section>
@@ -73,7 +73,7 @@ export default function Details() {
             <h2 className="text-4xl font-bold mb-6">About the Event</h2>
             <div className="prose prose-lg text-gray-600 space-y-4">
               <p>
-                Tech Innovation Summit 2024 is where visionaries connect, ideas flourish, and the future of technology unfolds. 
+                Tech Innovation Summit 2026 is where visionaries connect, ideas flourish, and the future of technology unfolds. 
                 Join us for an evening of groundbreaking insights, hands-on workshops, and unparalleled networking opportunities 
                 with industry leaders and innovators.
               </p>
@@ -212,7 +212,7 @@ export default function Details() {
               <div className="space-y-6">
                 <div>
                   <h3 className="text-xl font-bold text-gray-900 mb-2">📅 Date & Time</h3>
-                  <p className="text-gray-600">December 31, 2024</p>
+                  <p className="text-gray-600">December 31, 2026</p>
                   <p className="text-gray-600">6:00 PM - 11:00 PM PST</p>
                 </div>
                 <div>
@@ -284,7 +284,7 @@ export default function Details() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold mb-4">Ready to Join Us?</h2>
           <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-            Secure your spot at Tech Innovation Summit 2024 and be part of an unforgettable experience.
+            Secure your spot at Tech Innovation Summit 2026 and be part of an unforgettable experience.
           </p>
           <Link
             href="/register"

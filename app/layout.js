@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Tech Innovation Summit 2024",
+  title: "Tech Innovation Summit 2026",
   description: "Where visionaries connect, ideas flourish, and the future of technology unfolds.",
 };
 

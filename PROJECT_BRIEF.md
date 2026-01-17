@@ -1,7 +1,7 @@
 # Project Brief
-## Tech Innovation Summit 2024 - Event Landing Page
+## Tech Innovation Summit 2026 - Event Landing Page
 
-**Client:** Tech Innovation Summit 2024  
+**Client:** Tech Innovation Summit 2026  
 **Project Type:** Event Marketing Website  
 **Target Audience:** Event attendees, tech professionals, industry leaders  
 **Project Timeline:** As specified by client  
@@ -11,7 +11,7 @@
 
 ## Executive Summary
 
-We need a modern, professional 3-page landing website for our upcoming Tech Innovation Summit 2024 event. The website should serve as the primary marketing and registration platform, creating excitement about the event while making it easy for potential attendees to learn about the event, view the schedule, and purchase tickets.
+We need a modern, professional 3-page landing website for our upcoming Tech Innovation Summit 2026 event. The website should serve as the primary marketing and registration platform, creating excitement about the event while making it easy for potential attendees to learn about the event, view the schedule, and purchase tickets.
 
 The site must be visually stunning, user-friendly, and work seamlessly on all devices - from mobile phones to desktop computers.
 
@@ -77,9 +77,9 @@ The site must be visually stunning, user-friendly, and work seamlessly on all de
 
 **Must-Have Features:**
 1. **Hero Section**
-   - Large, eye-catching headline: "Tech Innovation Summit 2024"
+   - Large, eye-catching headline: "Tech Innovation Summit 2026"
    - Compelling tagline: "Where visionaries connect, ideas flourish, and the future of technology unfolds"
-   - Event date: December 31, 2024
+   - Event date: December 31, 2026
    - Event time: 6:00 PM - 11:00 PM
    - Location: San Francisco, CA
    - Live countdown timer showing days, hours, minutes, seconds until event
@@ -373,9 +373,9 @@ The site must be visually stunning, user-friendly, and work seamlessly on all de
 ## Content Requirements
 
 ### Content Provided by Client
-- Event name: "Tech Innovation Summit 2024"
+- Event name: "Tech Innovation Summit 2026"
 - Tagline: "Where visionaries connect, ideas flourish, and the future of technology unfolds"
-- Date: December 31, 2024
+- Date: December 31, 2026
 - Time: 6:00 PM - 11:00 PM PST
 - Location: San Francisco Convention Center, 747 Howard Street, San Francisco, CA 94103
 - Ticket pricing: Early Bird $99, General $149, VIP $249
