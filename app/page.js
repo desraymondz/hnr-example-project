@@ -51,8 +51,8 @@ export default function Home() {
           <div className="max-w-5xl w-full text-center space-y-8">
             {/* Badge */}
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur-md rounded-full border border-white/20">
-              <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></span>
-              <span className="text-white/90 text-sm font-medium">Join 500+ Attendees</span>
+              <span className="w-2 h-2 bg-yellow-400 rounded-full animate-pulse"></span>
+              <span className="text-white/90 text-sm font-medium">Early Bird Open</span>
             </div>
 
             {/* Main Headline */}
