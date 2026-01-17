@@ -36,7 +36,7 @@ export default function Navigation() {
             <div className={`text-2xl font-bold transition-colors ${
               isScrolled ? 'text-purple-600' : 'text-white'
             }`}>
-              TIS<span className="text-cyan-500">24</span>
+              SFM<span className="text-cyan-500">26</span>
             </div>
           </Link>
 

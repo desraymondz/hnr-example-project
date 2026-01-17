@@ -287,5 +287,160 @@ This document lists straightforward UI modifications that can be easily made to 
 
 ---
 
+## 16. Change Attendee Count Badge
+
+**What to change:** The badge showing attendee count on homepage
+
+**Current:** "Join 500+ Attendees"
+
+**How to change:**
+- File: `app/page.js`
+- Line 55: Change the text `Join 500+ Attendees`
+- Line 54: Change badge dot color `bg-green-400` to any color
+- Examples: "Join 1000+ Innovators", "Limited Spots Available", "Early Bird Open"
+
+---
+
+## 17. Change CTA Button Text
+
+**What to change:** Main call-to-action button text on homepage
+
+**Current:** "Get Your Tickets NOWWWW"
+
+**How to change:**
+- File: `app/page.js`
+- Line 115: Change the button text
+- Line 123: Change secondary button text "Learn More"
+- Examples: "Register Now", "Book Your Spot", "Join Us", "Get Started"
+
+**Also check:**
+- `app/components/Navigation.js` line 66: "Get Tickets"
+- `app/details/page.js` line 293: "Register Now"
+
+---
+
+## 18. Change Quick Info Card Values
+
+**What to change:** The 4 info cards showing event type, duration, price, capacity
+
+**Current:** Conference, 5 Hours, XX, 500+
+
+**How to change:**
+- File: `app/page.js`
+- Lines 130-133: Update the `value` properties
+- Examples:
+  - Event Type: "Meetup", "Workshop", "Summit", "Hackathon"
+  - Duration: "3 Hours", "Full Day", "2 Days"
+  - From: "$49", "$99", "Free"
+  - Capacity: "200", "1000+", "Unlimited"
+
+---
+
+## 19. Change Feature Card Content
+
+**What to change:** The 3 feature preview cards on homepage
+
+**Current:** Innovation Talks, Networking, Workshops
+
+**How to change:**
+- File: `app/page.js`
+- Lines 146-148: Change `title` and `desc` properties
+- Line 151: Change icon color `text-cyan-300` to any color
+- Examples:
+  - "Keynote Speeches" - "Hear from industry leaders"
+  - "Panel Discussions" - "Expert insights on trending topics"
+  - "Demo Sessions" - "See cutting-edge products in action"
+
+---
+
+## 20. Change Speaker Information
+
+**What to change:** Featured speakers on the Details page
+
+**Current:** Dr. Sarah Chen, Michael Torres, Dr. Priya Patel, James Wilson
+
+**How to change:**
+- File: `app/details/page.js`
+- Lines 18-23: Update the `speakers` array
+- Change: `name`, `role`, `company`, `bio`, `avatar` (emoji)
+- Avatar examples: 👨‍💻, 👩‍💻, 👨‍🔬, 👩‍🔬, 👨‍🎓, 👩‍🎓, 🧑‍💼
+
+---
+
+## 21. Change Floating Particle Effects
+
+**What to change:** Decorative floating blur circles on homepage background
+
+**Current:** White and cyan colored blurs
+
+**How to change:**
+- File: `app/page.js`
+- Line 43: Change `bg-white/10` to any color with opacity (e.g., `bg-pink-500/20`)
+- Line 44: Change `bg-cyan-400/20` to any color (e.g., `bg-purple-500/30`)
+- Adjust size: `w-72 h-72` → `w-48 h-48` (smaller) or `w-96 h-96` (larger)
+- Adjust blur: `blur-3xl` → `blur-2xl` (sharper) or `blur-[100px]` (softer)
+
+---
+
+## 22. Change Event Agenda/Schedule
+
+**What to change:** Timeline of events on Details page
+
+**Current:** 6 agenda items from 6:00 PM to 10:00 PM
+
+**How to change:**
+- File: `app/details/page.js`
+- Lines 9-16: Update the `agenda` array
+- Each item has: `time`, `title`, `description`, `speaker` (optional), `type`
+- Types: `'talk'`, `'panel'`, `'workshop'`, `'networking'` (affects badge color)
+
+---
+
+## 23. Change Topics Covered List
+
+**What to change:** List of topics shown on Details page
+
+**Current:** AI/ML, Blockchain, Sustainable Tech, Cybersecurity, Cloud Computing, Human-Centered Design
+
+**How to change:**
+- File: `app/details/page.js`
+- Lines 25-32: Update the `topics` array
+- Examples:
+  - "Product Management"
+  - "Startup Funding & VC"
+  - "Growth Hacking"
+  - "Remote Work Culture"
+  - "Developer Tools"
+
+---
+
+## 24. Change FAQ Questions and Answers
+
+**What to change:** Frequently Asked Questions on Details page
+
+**Current:** 5 FAQs about the event
+
+**How to change:**
+- File: `app/details/page.js`
+- Lines 34-55: Update the `faqs` array
+- Each FAQ has: `question` and `answer`
+- Add or remove FAQs as needed
+
+---
+
+## 25. Change Navigation Link Labels
+
+**What to change:** Text labels in the navigation bar
+
+**Current:** Home, Details, Register
+
+**How to change:**
+- File: `app/components/Navigation.js`
+- Lines 21-24: Update the `navLinks` array
+- Change `label` values: "Home" → "Welcome", "Details" → "About", "Register" → "Sign Up"
+- Can also change `href` paths if creating new pages
+
+---
+
 **Last Updated:** 2024
 
