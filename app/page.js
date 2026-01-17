@@ -35,7 +35,7 @@ export default function Home() {
   return (
     <div className="relative min-h-screen overflow-hidden">
       {/* Animated Gradient Background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-purple-600 via-blue-600 to-cyan-500 animate-gradient-xy"></div>
+      <div className="absolute inset-0 bg-gradient-to-br from-pink-500 via-red-500 to-orange-500 animate-gradient-xy"></div>
       <div className="absolute inset-0 bg-[url('/grid.svg')] opacity-10"></div>
       
       {/* Floating particles effect */}
@@ -109,10 +109,10 @@ export default function Home() {
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-8 animate-fade-in-delay-4">
               <Link
                 href="/register"
-                className="group relative px-8 py-4 bg-white text-purple-600 rounded-full font-bold text-lg shadow-2xl hover:shadow-white/50 transition-all duration-300 hover:scale-105 hover:-translate-y-1"
+                className="group relative px-8 py-4 bg-blue-500 text-white rounded-full font-bold text-lg shadow-2xl hover:shadow-blue-500/50 transition-all duration-300 hover:scale-105 hover:-translate-y-1"
               >
                 <span className="relative z-10">Get Your Tickets NOWWWW</span>
-                <div className="absolute inset-0 bg-gradient-to-r from-cyan-400 to-blue-400 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <span className="relative z-10 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">Get Your Tickets</span>
               </Link>
               <Link
