@@ -63,7 +63,7 @@ export default function Navigation() {
                   : 'bg-white text-purple-600 hover:bg-white/90'
               }`}
             >
-              Get Tickets
+              Register Now
             </Link>
           </div>
 
@@ -107,7 +107,7 @@ export default function Navigation() {
               onClick={() => setIsMobileMenuOpen(false)}
               className="block px-4 py-2 rounded-lg bg-purple-600 text-white text-sm font-semibold text-center hover:bg-purple-700 transition-colors"
             >
-              Get Tickets
+              Register Now
             </Link>
           </div>
         )}

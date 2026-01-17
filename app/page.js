@@ -112,15 +112,15 @@ export default function Home() {
                 href="/register"
                 className="group relative px-8 py-4 bg-blue-500 text-white rounded-full font-bold text-lg shadow-2xl hover:shadow-blue-500/50 transition-all duration-300 hover:scale-105 hover:-translate-y-1"
               >
-                <span className="relative z-10">Get Your Tickets NOWWWW</span>
+                <span className="relative z-10">Register Now</span>
                 <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                <span className="relative z-10 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">Get Your Tickets</span>
+                <span className="relative z-10 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">Register Now</span>
               </Link>
               <Link
                 href="/details"
                 className="px-8 py-4 bg-white/10 backdrop-blur-md text-white rounded-full font-semibold text-lg border-2 border-white/30 hover:bg-white/20 transition-all duration-300 hover:scale-105"
               >
-                Learn More
+                View Details
               </Link>
             </div>
 
