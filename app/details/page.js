@@ -57,7 +57,7 @@ export default function Details() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white pt-16">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-purple-600 via-blue-600 to-cyan-500 text-white py-20">
+      <section className="bg-gradient-to-r from-purple-600 via-blue-600 to-cyan-500 text-white py-28">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-5xl sm:text-6xl font-bold mb-4">Event Details</h1>
           <p className="text-xl text-white/90 max-w-3xl">
@@ -67,7 +67,7 @@ export default function Details() {
       </section>
 
       {/* About Section */}
-      <section className="py-16">
+      <section className="py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl">
             <h2 className="text-4xl font-bold mb-6">About the Event</h2>
@@ -93,7 +93,7 @@ export default function Details() {
       </section>
 
       {/* Agenda/Timeline Section */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-24 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl font-bold mb-12 text-center">Event Agenda</h2>
           
@@ -163,7 +163,7 @@ export default function Details() {
       </section>
 
       {/* Speakers Section */}
-      <section className="py-16">
+      <section className="py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl font-bold mb-12 text-center">Featured Speakers</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -184,7 +184,7 @@ export default function Details() {
       </section>
 
       {/* Topics Section */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-24 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl font-bold mb-12 text-center">Topics Covered</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -204,7 +204,7 @@ export default function Details() {
       </section>
 
       {/* Key Information Section */}
-      <section className="py-16">
+      <section className="py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-gradient-to-br from-purple-50 to-cyan-50 rounded-3xl p-8 md:p-12">
             <h2 className="text-4xl font-bold mb-8 text-center">Key Information</h2>
@@ -245,7 +245,7 @@ export default function Details() {
       </section>
 
       {/* FAQs Section */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-24 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl font-bold mb-12 text-center">Frequently Asked Questions</h2>
           <div className="space-y-4">
@@ -280,7 +280,7 @@ export default function Details() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16">
+      <section className="py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold mb-4">Ready to Join Us?</h2>
           <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
