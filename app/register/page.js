@@ -113,10 +113,10 @@ export default function Register() {
                 <div
                   key={tier.id}
                   onClick={() => setSelectedTier(tier.id)}
-                  className={`relative bg-white rounded-2xl p-6 shadow-lg cursor-pointer transition-all duration-300 hover:shadow-xl hover:-translate-y-1 border-2 ${
+                  className={`relative bg-lime-50 rounded-2xl p-6 shadow-lg cursor-pointer transition-all duration-300 hover:shadow-xl hover:-translate-y-1 border-2 ${
                     selectedTier === tier.id
-                      ? 'border-purple-600 ring-4 ring-purple-200'
-                      : 'border-gray-200 hover:border-purple-300'
+                      ? 'border-lime-400 ring-4 ring-lime-200'
+                      : 'border-lime-200 hover:border-lime-400'
                   } ${tier.recommended ? 'ring-2 ring-cyan-400' : ''}`}
                 >
                   {tier.recommended && (
@@ -157,7 +157,7 @@ export default function Register() {
                       {tier.availability}
                     </span>
                     <div className={`w-6 h-6 rounded-full border-2 flex items-center justify-center ${
-                      selectedTier === tier.id ? 'border-purple-600 bg-purple-600' : 'border-gray-300'
+                      selectedTier === tier.id ? 'border-lime-400 bg-lime-400' : 'border-lime-300'
                     }`}>
                       {selectedTier === tier.id && (
                         <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
