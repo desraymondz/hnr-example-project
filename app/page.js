@@ -58,10 +58,11 @@ export default function Home() {
             {/* Main Headline */}
             <h1 className="text-5xl sm:text-6xl lg:text-8xl font-bold text-white leading-tight animate-fade-in">
               <span className="bg-gradient-to-r from-white via-cyan-100 to-blue-100 bg-clip-text text-transparent">
-                Tech
+                Startup
               </span>
-              <span className="block mt-2">Innovation</span>
+              <span className="block mt-2">Founders</span>
               <span className="block text-4xl sm:text-5xl lg:text-6xl mt-4 text-cyan-100">
+                Meetup 2026
               </span>
             </h1>
 

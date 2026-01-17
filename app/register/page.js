@@ -97,7 +97,7 @@ export default function Register() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-5xl sm:text-6xl font-bold mb-4">Get Your Tickets</h1>
           <p className="text-xl text-white/90 max-w-3xl">
-            Secure your spot at Tech Innovation Summit 2026
+            Secure your spot at Startup Founders Meetup 2026
           </p>
         </div>
       </section>
