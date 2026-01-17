@@ -62,7 +62,7 @@ export default function Home() {
               </span>
               <span className="block mt-2">Innovation</span>
               <span className="block text-4xl sm:text-5xl lg:text-6xl mt-4 text-cyan-100">
-                Summit 2026
+                This is the Biggest Summit 2026
               </span>
             </h1>
 
