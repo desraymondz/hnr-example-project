@@ -47,7 +47,7 @@ export default function Home() {
       {/* Main Content */}
       <div className="relative z-10 min-h-screen flex flex-col">
         {/* Hero Section */}
-        <main className="flex-1 flex items-center justify-center px-4 py-20 sm:px-6 lg:px-8">
+        <main className="flex-1 flex items-center justify-center px-6 py-28 sm:px-8 lg:px-12">
           <div className="max-w-5xl w-full text-center space-y-8">
             {/* Badge */}
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur-md rounded-full border border-white/20">
@@ -125,7 +125,7 @@ export default function Home() {
             </div>
 
             {/* Quick Info Section */}
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 sm:gap-6 pt-16 max-w-4xl mx-auto animate-fade-in-delay-5">
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 sm:gap-8 pt-20 max-w-4xl mx-auto animate-fade-in-delay-5">
               {[
                 { icon: <TicketIcon />, label: 'Event Type', value: 'Conference' },
                 { icon: <ClockIcon />, label: 'Duration', value: '5 Hours' },
@@ -141,7 +141,7 @@ export default function Home() {
             </div>
 
             {/* Features Preview */}
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 pt-16 max-w-4xl mx-auto animate-fade-in-delay-6">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 pt-20 max-w-4xl mx-auto animate-fade-in-delay-6">
               {[
                 { icon: <LightbulbIcon />, title: 'Innovation Talks', desc: 'Expert insights on emerging technologies' },
                 { icon: <NetworkIcon />, title: 'Networking', desc: 'Connect with industry leaders' },
