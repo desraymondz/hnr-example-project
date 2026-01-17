@@ -8,7 +8,7 @@ export default function Footer() {
           {/* Event Info */}
           <div className="space-y-4">
             <h3 className="text-2xl font-bold">
-              TIS<span className="text-cyan-500">24</span>
+              SFM<span className="text-cyan-500">26</span>
             </h3>
             <p className="text-gray-400 text-sm">
               Connect, Learn, Grow
@@ -71,7 +71,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-green-300 mt-8 pt-8 text-center text-sm text-white/90">
-          <p>&copy; 2024 Tech Innovation Summit. All rights reserved.</p>
+          <p>&copy; 2026 Startup Founders Meetup. All rights reserved.</p>
         </div>
       </div>
     </footer>
