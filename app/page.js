@@ -35,7 +35,7 @@ export default function Home() {
   return (
     <div className="relative min-h-screen overflow-hidden">
       {/* Animated Gradient Background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-purple-600 via-blue-600 to-cyan-500 animate-gradient-xy"></div>
+      <div className="absolute inset-0 bg-gradient-to-br from-pink-500 via-red-500 to-orange-500 animate-gradient-xy"></div>
       <div className="absolute inset-0 bg-[url('/grid.svg')] opacity-10"></div>
       
       {/* Floating particles effect */}
